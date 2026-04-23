@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>QuickHelp Nigeria — Redesign Preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="quickhelp-new.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar indigo" id="mainNav">
+  <div class="container">
+    <a href="#hero-area" class="navbar-brand">
+      <span style="color:#fff;font-size:1.4rem;font-weight:800;letter-spacing:-0.02em;">Quick<span style="color:#ed2024;">Help</span></span>
+    </a>
+    <div class="navbar-links" id="desktopNav">
+      <a href="#hero-area">Home</a>
+      <a href="#services">Services</a>
+      <a href="#">Blog</a>
+      <a href="#prices">Pricing</a>
+      <a href="#">QuickBUY</a>
+      <a href="#">Qknows</a>
+      <a href="#contact">Contact</a>
+      <a href="#" class="btn-login">Login</a>
+      <a href="#" class="btn-nav-cta">Get Started</a>
+    </div>
+    <button class="navbar-toggler" id="navToggler" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#hero-area" onclick="closeMobileNav()">Home</a>
+  <a href="#services" onclick="closeMobileNav()">Services</a>
+  <a href="#">Blog</a>
+  <a href="#prices" onclick="closeMobileNav()">Pricing</a>
+  <a href="#">QuickBUY</a>
+  <a href="#">Qknows</a>
+  <a href="#contact" onclick="closeMobileNav()">Contact</a>
+  <a href="#">Login</a>
+</div>
+
+<!-- HERO -->
+<section id="hero-area">
+  <div class="container hero-content">
+    <div class="hero-badge">
+      <span></span> Nigeria's #1 AI-Powered Chatbot Directory
+    </div>
+    <h1 class="hero-title">
+      Get <span class="accent">Timely</span><br>Help, Fast.
+    </h1>
+    <p class="hero-subtitle">
+      AI-powered emergency services, business contacts, airtime/data recharge, ride-hailing &amp; more — all in one chat.
+    </p>
+    <div class="hero-typewriter">
+      <span id="typer-demo"></span>
+    </div>
+    <div class="hero-cta">
+      <a href="#" class="btn btn-primary"><i class="fas fa-bolt"></i> Get Started</a>
+      <a href="#" class="btn btn-outline"><i class="fas fa-user-plus"></i> Sign Up</a>
+      <a href="#" class="btn btn-outline"><i class="fas fa-shopping-cart"></i> Shop</a>
+      <a href="#" class="btn btn-outline">Login</a>
+    </div>
+    <div class="hero-chips">
+      <span class="chip"><i class="fas fa-search"></i> Find a Business</span>
+      <span class="chip"><i class="fas fa-wifi"></i> Get Data</span>
+      <span class="chip"><i class="fas fa-phone"></i> Get Airtime</span>
+      <span class="chip"><i class="fas fa-landmark"></i> Gov Agencies</span>
+    </div>
+  </div>
+</section>
+
+<!-- WHY QUICKHELP -->
+<section id="whatwedo">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Why QuickHelp?</h2>
+      <hr class="lines">
+      <p class="section-subtitle">Built for Nigerian communities — fast, fair and always available.</p>
+    </div>
+    <div class="bento-grid">
+      <div class="bento-card featured">
+        <div class="bento-icon"><i class="fas fa-gift"></i></div>
+        <h4>Always Free</h4>
+        <p>QuickHelp is an AI-based business directory and personal emergency services system created to be free for all communities in Nigeria. Our pledge: the free directory service stays free — forever.</p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-balance-scale"></i></div>
+        <h4>Very Fair</h4>
+        <p>Our random algorithm moves businesses out of obscurity. On QuickHelp, everyone is a VIP.</p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-unlock-alt"></i></div>
+        <h4>Safety First</h4>
+        <p>Your personal data stays in your community, not on some server run by total strangers.</p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-certificate"></i></div>
+        <h4>Screened Listings</h4>
+        <p>Every business is verified before listing. Community Directory Managers actively maintain quality.</p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-signal"></i></div>
+        <h4>Offline Capable</h4>
+        <p>No smartphone? No data? No problem. Use QuickHelp via SMS or USSD: <strong>*345*047#</strong></p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-briefcase"></i></div>
+        <h4>Instant Jobs</h4>
+        <p>Earn as a QuickHelp Community Directory Manager — oversee businesses within 5 km of your address.</p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-heartbeat"></i></div>
+        <h4>Life Saver</h4>
+        <p>Stuck in a remote town, sick child in the car, flat tyres? Help is just one chat away.</p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-microphone"></i></div>
+        <h4>Just Talk!</h4>
+        <p>Hit the mic button and make your request by voice — no typing needed with our Speech Recognition feature.</p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-handshake"></i></div>
+        <h4>Partnership Benefits</h4>
+        <p>Partners get free website design, instant service-request notifications, and ad slots on USSD, web and mobile.</p>
+      </div>
+      <div class="bento-card">
+        <div class="bento-icon"><i class="fas fa-star"></i></div>
+        <h4>Premium Benefits</h4>
+        <p>Referrals, bonus earnings, sharing income, voice support and logistics for premium users.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BANNER -->
+<section id="whyChoseUs">
+  <div class="container">
+    <div class="why-banner">
+      <div>
+        <h2>QuickHelp</h2>
+        <p>Instant Help, wherever, whenever.</p>
+      </div>
+      <div class="why-banner-right">
+        <div style="width:100px;height:100px;background:rgba(255,255,255,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff;">
+          <i class="fas fa-bolt"></i>
+        </div>
+        <div class="social-row">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">QuickHelp Services</h2>
+      <hr class="lines">
+      <p class="section-subtitle">QuickHelp is a FREE community-centred business directory and personal emergency services system leveraging SMS, USSD and AI technologies.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-address-card"></i></div>
+        <h4>Personal Emergency Services / Business Directory</h4>
+        <p>A robust directory of verified artisans, SMEs and registered companies — freely accessible via AI, plus a Premium Personal Emergency Service System (PESS) for contingencies and crises.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-phone"></i></div>
+        <h4>QuickCredit</h4>
+        <p>Get instant airtime credit and pay later. The fastest way to recharge without touching your bank account. Just type "I need airtime" to try it.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-taxi"></i></div>
+        <h4>QuickHelp Taxi / Bike</h4>
+        <p>Community-based Taxi and Bike service. Say "I need a Taxi" or use the USSD code. A simple, safe alternative floated in partnership with local operators.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-toggle-on"></i></div>
+        <h4>QuickHelp Switch</h4>
+        <p>Switch to your favourite brand built on Qknows. Public FAQs are auto-fetched, converted to Knowets and made conversational — instantly.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+        <h4>QuickBuy / Online Shopping</h4>
+        <p>An eCommerce arm empowering local businesses with an online store and community-based logistics. More sales, higher profits, convenient shopping for everyone.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-comment-alt"></i></div>
+        <h4>Qknows</h4>
+        <p>QuickHelp's Natural Language Processing (NLP) knowledge system. Written in Knowledge Entities (Knowets) — scripted datasets that train AI agents.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="prices" class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Simple Pricing</h2>
+      <hr class="lines">
+      <p class="section-subtitle">Start free. Upgrade when you're ready.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-tier">Free</div>
+        <div class="pricing-price">₦0 <span class="pricing-period">/ month</span></div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li class="pricing-feature"><i class="fa fa-check"></i> Free Online &amp; USSD Directory Services</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Can upgrade to Premium anytime</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Buy Airtime / Data</li>
+          <li class="pricing-feature disabled"><i class="fa fa-times"></i> <del>Referral Earnings</del></li>
+          <li class="pricing-feature disabled"><i class="fa fa-times"></i> <del>Delivery Services</del></li>
+          <li class="pricing-feature disabled"><i class="fa fa-times"></i> <del>Business Notifications</del></li>
+          <li class="pricing-feature disabled"><i class="fa fa-times"></i> <del>Cash Bail-outs</del></li>
+        </ul>
+        <a href="#" class="btn btn-blue btn-block">Get Started Free</a>
+      </div>
+      <div class="pricing-card popular">
+        <div class="popular-badge">Most Popular</div>
+        <div class="pricing-tier">Premium</div>
+        <div class="pricing-price">₦5,499 <span class="pricing-period">/ month</span></div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li class="pricing-feature"><i class="fa fa-check"></i> Online / USSD / Voice Directory</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Referral Earnings</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Sales of Airtime / Data</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Delivery Services</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Access to QuickCover (Personal Emergency Units)</li>
+          <li class="pricing-feature disabled"><i class="fa fa-times"></i> <del>Cash Bail-outs</del></li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-block">Subscribe Now</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-tier">Business</div>
+        <div class="pricing-price">₦10,499 <span class="pricing-period">/ month</span></div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li class="pricing-feature"><i class="fa fa-check"></i> All Premium benefits</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Business Opportunity Notifications</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> QuickTaxi, Qknows &amp; QuickBuy Earnings</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Free Business Adverts</li>
+          <li class="pricing-feature"><i class="fa fa-check"></i> Access to Cash Bail-outs</li>
+        </ul>
+        <a href="#" class="btn btn-blue btn-block">Go Business</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section id="video-section" class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">See QuickHelp in Action</h2>
+      <hr class="lines">
+      <p class="section-subtitle">Watch how QuickHelp is transforming access to business services across Nigeria</p>
+    </div>
+    <div style="max-width:840px;margin:0 auto;">
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/-ewdjXzaHVY"
+          title="QuickHelp Nigeria Demo"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Get in Touch</h2>
+      <hr class="lines">
+      <p class="section-subtitle">We appreciate your feedback!</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>QuickHelp Nigeria</h3>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div><p><strong>HQ:</strong> Opposite LA Primary School, Kajola-Akile (Modomo), off Ede Road, Ile-Ife, Nigeria</p></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fas fa-store"></i></div>
+          <div><p><strong>Agency:</strong> Shop 4, Block 8, Zone D, OAU Central Market, Obafemi Awolowo University Campus, Ile-Ife, Osun State</p></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fas fa-phone"></i></div>
+          <div><p>+234 091 1999 4357</p></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
+          <div><p>info@quickhelp.com.ng</p></div>
+        </div>
+        <div class="social-icons-contact">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Your Message" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div style="font-size:1.5rem;font-weight:800;color:#fff;margin-bottom:0.75rem;">Quick<span style="color:#ed2024;">Help</span></div>
+        <p>Nigeria's #1 AI-powered chatbot directory for emergency services, business contacts, airtime recharge, ride-hailing and more.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Platform</h5>
+        <a href="#services">Services</a>
+        <a href="#prices">Pricing</a>
+        <a href="#">QuickBuy</a>
+        <a href="#">Qknows</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="#">Partnerships</a>
+        <a href="#">Careers</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>QuickHelp Nigeria is a product of <strong>SYL Multimedia</strong>. &copy; 2015–2026. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- CHAT WIDGET -->
+<div class="chat_frame">
+  <div class="QuickHelp-chat-box">
+    <ul class="navo li" style="gap:0.5rem;">
+      <li><span style="color:#fff;font-size:0.75rem;font-weight:600;padding:0.25rem 0.5rem;border:1px solid rgba(255,255,255,0.3);border-radius:1rem;">Login</span></li>
+      <li><i class="fas fa-user-plus icons" style="color:#fff;font-size:1.1rem;cursor:pointer;opacity:0.85;" title="Register"></i></li>
+      <li><i class="fas fa-comments icons" style="color:#fff;font-size:1.1rem;cursor:pointer;opacity:0.85;" title="Messenger"></i></li>
+      <li><i class="fas fa-sync-alt icons" style="color:#fff;font-size:1.1rem;cursor:pointer;opacity:0.85;" title="Switch"></i></li>
+      <li><i class="fas fa-shopping-cart icons" style="color:#fff;font-size:1.1rem;cursor:pointer;opacity:0.85;" title="Shop"></i></li>
+      <li><i class="fas fa-mobile-alt icons" style="color:#fff;font-size:1.1rem;cursor:pointer;opacity:0.85;" title="Airtime"></i></li>
+      <li><i class="fas fa-microphone icons" style="color:#fff;font-size:1.1rem;cursor:pointer;opacity:0.85;" title="Voice"></i></li>
+      <li><i class="fas fa-minus icons" style="color:#fff;font-size:1.1rem;cursor:pointer;opacity:0.85;" onclick="toggleChat()" title="Minimize"></i></li>
+    </ul>
+  </div>
+  <div class="QuickHelp-inner-box-chat" id="chatBox">
+    <div class="innerframe">
+      <ol class="chat" id="messages">
+        <li class="other">
+          <div class="avatarv"><div style="width:28px;height:28px;border-radius:50%;background:var(--brand-blue);display:flex;align-items:center;justify-content:center;"><i class="fas fa-robot" style="color:#fff;font-size:0.75rem;"></i></div></div>
+          <div class="msg">
+            <p>Hello! I'm QuickHelp — your AI assistant. How can I help you today?</p>
+            <time>12:00 PM</time>
+          </div>
+        </li>
+        <li class="self">
+          <div class="avatar"><div style="width:28px;height:28px;border-radius:50%;background:#e2e8f0;display:flex;align-items:center;justify-content:center;"><i class="fas fa-user" style="color:#64748b;font-size:0.75rem;"></i></div></div>
+          <div class="msg">
+            <p>I need a plumber near Yaba</p>
+            <time>12:01 PM</time>
+          </div>
+        </li>
+        <li class="other">
+          <div class="avatarv"><div style="width:28px;height:28px;border-radius:50%;background:var(--brand-blue);display:flex;align-items:center;justify-content:center;"><i class="fas fa-robot" style="color:#fff;font-size:0.75rem;"></i></div></div>
+          <div class="msg">
+            <p>Sure! I found 3 verified plumbers near Yaba. The closest is Bello Plumbing Services — call <strong>080XXXXXXXX</strong>. Should I connect you?</p>
+            <time>12:01 PM <span class="feedback"><i class="fa fa-thumbs-up"></i><i class="fa fa-thumbs-down"></i></span></time>
+          </div>
+        </li>
+      </ol>
+      <div class="chat-input-area">
+        <textarea class="textarea" placeholder="Type a message..." rows="1"></textarea>
+        <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+    <p style="padding:0.2rem 1rem;font-size:0.72rem;color:#94a3b8;min-height:1rem;"></p>
+  </div>
+</div>
+
+<!-- WhatsApp -->
+<div id="whatsapp-widget">
+  <a href="#" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    <span>Chat on WhatsApp</span>
+  </a>
+</div>
+
+<!-- Back to top -->
+<a href="#hero-area" class="back-to-top" id="backToTop">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<script>
+// Typewriter demo
+var phrases = [
+  "Nigeria's #1 Chatbot Directory!",
+  '"I need Airtime!"',
+  '"I am out of fuel!"',
+  '"I need a Plumber at Yaba!"',
+  '"Get me a TAXI!"',
+  '"I need a Bike at Lagere!"',
+  '"Get me an ATM nearby!"',
+  '"I need a job!"',
+  '"Where is UNILAG?"',
+  '"Speak French!"'
+];
+var currentPhrase = 0, currentChar = 0, deleting = false;
+var typerEl = document.getElementById('typer-demo');
+
+function typeLoop() {
+  var phrase = phrases[currentPhrase];
+  if (!deleting) {
+    typerEl.textContent = phrase.substring(0, currentChar + 1);
+    currentChar++;
+    if (currentChar === phrase.length) {
+      deleting = true;
+      setTimeout(typeLoop, 2000);
+      return;
+    }
+  } else {
+    typerEl.textContent = phrase.substring(0, currentChar - 1);
+    currentChar--;
+    if (currentChar === 0) {
+      deleting = false;
+      currentPhrase = (currentPhrase + 1) % phrases.length;
+    }
+  }
+  setTimeout(typeLoop, deleting ? 40 : 80);
+}
+typeLoop();
+
+// Navbar scroll
+window.addEventListener('scroll', function() {
+  var nav = document.getElementById('mainNav');
+  nav.classList.toggle('scrolled', window.scrollY > 50);
+  document.getElementById('backToTop').classList.toggle('visible', window.scrollY > 300);
+});
+
+// Hamburger
+document.getElementById('navToggler').addEventListener('click', function() {
+  document.getElementById('mobileNav').classList.toggle('open');
+});
+
+function closeMobileNav() {
+  document.getElementById('mobileNav').classList.remove('open');
+}
+
+// Chat toggle
+function toggleChat() {
+  var box = document.getElementById('chatBox');
+  box.style.display = box.style.display === 'none' ? '' : 'none';
+}
+</script>
+</body>
+</html>
